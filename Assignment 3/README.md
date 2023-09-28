@@ -6,11 +6,11 @@
 </ul>
 
 <p align="center">
-<img src="images/website_serving1.png" height="50%" width="50%">
+<img src="images/website_serving1.PNG" height="70%" width="70%">
 </p>
 <p align="center">Figure 1 Website Hosting</p>
 
 <p align="center">
-<img src="images/website_serving2.png" height="50%" width="50%">
+<img src="images/website_serving2.PNG" height="70%" width="70%">
 </p>
 <p align="center">Figure 2 Website Hosting</p>
