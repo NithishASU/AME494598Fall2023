@@ -1,0 +1,23 @@
+#tutorial {
+  border: 5px outset blue;
+  background-color: rgb(205, 207, 207);
+  text-align: center;
+}
+
+#pic {
+  padding: 40px;
+}
+
+#image {  
+  width: 80%;
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;  
+  border: 5px outset blue;  
+  padding: 5px;  
+  }
+
+
+h2{
+  text-align: center;
+}

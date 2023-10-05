@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script src='asyncReq.js'></script>
+function updateData()
+{
+  loadURL("./getData", function(data){
+    document.getElementById("results").innerHTML = data;
+  })
+}
+function start()
+{
+  setInterval("updateData()", 300);
+}
+</script>
+</head>
+<body onload='start()'>
+<h1> Temperature/Humidity</h1>
+<div id='results'> </div>
+
+<div id="tutorial">
+  <div id="pic">
+    <h1>Step by step guide</h1>
+    <h2>Step 1: Connect to a wifi network with internet access</h2>
+    <img id="image" src="screenshot_pics/step1.png" alt="Step 1: Connect to a wifi network with internet access">
+  </div>
+  <div id="pic">
+    <h2>Step 2: Start lab</h2>
+    <img id="image" src="screenshot_pics/step2.png" alt="Step 2: Start lab">
+  </div>
+  <div id="pic">
+    <h2>Step 3: Select EC2</h2>
+    <img id="image" src="screenshot_pics/step3.png" alt="Step 3: Select EC2">
+  </div>
+  <div id="pic">
+    <h2>Step 4: Launch instance and create a server</h2>
+    <img id="image" src="screenshot_pics/step4.png" alt="Step 4: Launch instance and create a server">
+  </div>
+  <div id="pic">
+    <h2>Step 5: Add server name</h2>
+    <img id="image" src="screenshot_pics/step5.png" alt="Step 5: Add server name">
+  </div>
+  <div id="pic">
+    <h2>Step 6: Select Ubuntu 20.04</h2>
+    <img id="image" src="screenshot_pics/step6.png" alt="Step 6: Select Ubuntu 20.04">
+  </div>
+  <div id="pic">
+    <h2>Step 7: Select RSA key pair</h2>
+    <img id="image" src="screenshot_pics/step7.png" alt="Step 7: Select RSA key pair">
+  </div>
+  <div id="pic">
+    <h2>Step 8: Enter the storage size</h2>
+    <img id="image" src="screenshot_pics/step8.png" alt="Step 8: Enter the storage size">
+  </div>
+  <div id="pic">
+    <h2>Step 9: Click launch instance to initiate</h2>
+    <img id="image" src="screenshot_pics/step9.png" alt="Step 9: Click launch instance to initiate">
+  </div>
+  <div id="pic">
+    <h2>Step 10: Window after successful initiation of instance</h2>
+    <img id="image" src="screenshot_pics/step10.png" alt="Step 10: Window after successful initiation of instance">
+  </div>
+  <div id="pic">
+    <h2>Step 11: Select the required instance and click connect</h2>
+    <img id="image" src="screenshot_pics/step11.png" alt="Step 11: Select the required instance and click connect">
+  </div>
+  <div id="pic">
+    <h2>Step 12: Initial window of the instance</h2>
+    <img id="image" src="screenshot_pics/step12.png" alt="Step 12: Initial window of the instance">
+  </div>
+  <div id="pic">
+    <h2>Step 13: Select the instance and click on the security tab</h2>
+    <img id="image" src="screenshot_pics/step13.png" alt="Step 13: Select the instance and click on the security tab">
+  </div>
+  <div id="pic">
+    <h2>Step 14: Click on launch-wizard-1 in inbound rules</h2>
+    <img id="image" src="screenshot_pics/step14.png" alt="Step 14: Click on launch-wizard-1 in inbound rules">
+  </div>
+  <div id="pic">
+    <h2>Step 15: Click on inbound rules tab</h2>
+    <img id="image" src="screenshot_pics/step15.png" alt="Step 15: Click on Edit inbound rules">
+  </div>
+  <div id="pic">
+    <h2>Step 16: Click on Edit inbound rules</h2>
+    <img id="image" src="screenshot_pics/step16.png" alt="Step 16: Click on Edit inbound rules">
+  </div>
+  <div id="pic">
+    <h2>Step 17: Add the required ports and source</h2>
+    <img id="image" src="screenshot_pics/step17.png" alt="Step 17: Add the required ports and source">
+  </div>
+  <div id="pic">
+    <h2>Step 18: Install NodeJS and MongoDB</h2>
+    <img id="image" src="screenshot_pics/step18.png" alt="Step 18: Install NodeJS and MongoDB">
+  </div>
+  <div id="pic">
+    <h2>Step 19: Update Node version</h2>
+    <img id="image" src="screenshot_pics/step19.png" alt="Step 19: Update Node version">
+  </div>
+  <div id="pic">
+    <h2>Step 20: Clone class git repository</h2>
+    <img id="image" src="screenshot_pics/step20.png" alt="Step 20: Clone class git repository">
+  </div>
+  <div id="pic">
+    <h2>Step 21: Open the Arduino code and select the appropriate board and port in Tools menu</h2>
+    <img id="image" src="screenshot_pics/step21.png" alt="Step 21: Open the Arduino code and select the appropriate board and port in Tools menu">
+  </div>
+  <div id="pic">
+    <h2>Step 22: Update the ssid, password, serverName and upload the code to ESP32</h2>
+    <img id="image" src="screenshot_pics/step22.png" alt="Step 22: Update the ssid, password, serverName and upload the code to ESP32">
+  </div>
+  <div id="pic">
+    <h2>Step 23: Navigate the server code and start the server</h2>
+    <img id="image" src="screenshot_pics/step23.png" alt="Step 23: Navigate the server code and start the server">
+  </div>
+  <div id="pic">
+    <h2>Step 24: Output from the sensor in the server</h2>
+    <img id="image" src="screenshot_pics/step24.png" alt="Step 24: Output from the sensor in the server">
+  </div>
+
+
+</div>
+</body>
+</html>
