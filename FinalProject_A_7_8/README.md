@@ -1,5 +1,10 @@
 # Smart Park - Parking Management with Intelligent License Plate Recognition
 
+<h2 align="center">Demonstration video</h2>
+<p align="center">
+<a href="https://youtu.be/Ha5XNsRvKi0"><img src="images\multiple_space_allocation_video_thumbnail.png" height="70%" width="70%"></a>
+</p>
+
 ## Problem Statement
 Urban parking is often inconvenient, congested, and inefficient. Users struggle to find parking spaces, make payments, and have a smooth experience. Manual ticketing and payment systems are slow and error-prone, lacking technological efficiency.
 
